@@ -147,7 +147,7 @@ $data = <<<STRING
     </Group_Tag>
     <Group_Tag name="Sequences and Tags">
         <field name="Contact Tags">THH TOBVideo Email Grab</field>
-		  <field name="Sequences">TOB EMAIL GRAB - Sequence</field>
+		   <field name="Sequences">TOB EMAIL GRAB Sequence</field>
     </Group_Tag>
 </contact>
 STRING;
