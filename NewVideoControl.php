@@ -157,7 +157,7 @@ curl_close($session);
 //header("Content-Type: text/xml");
 //echo $response;
 $xml = new SimpleXMLElement($response);
-$contact_id = $xml->contact['id'];
+$contact_id = $xml->contact['id']; 
 
 
 
@@ -292,9 +292,9 @@ if(typeof(_vis_opt_settings_loaded) == "boolean" && typeof(_vis_opt_top_initiali
 	// $("#vid-cap").fadeIn().delay(548000).fadeOut(1200);
 	// $('#form-click').hide().delay(548000).fadeIn(1200);
 	// $('#safe-purchase').hide().delay(548000).fadeIn(1200);
-	  $("#vid-cap").fadeIn().delay(1000).fadeOut(1200);
-	 $('#form-click').hide().delay(1000).fadeIn(1200);
-	 $('#safe-purchase').hide().delay(1000).fadeIn(1200);
+	  $("#vid-cap").fadeIn().delay(1200).fadeOut(1200);
+	 $('#form-click').hide().delay(1200).fadeIn(1200);
+	 $('#safe-purchase').hide().delay(1200).fadeIn(1200);
 });
 	
 
