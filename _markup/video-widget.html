@@ -1,0 +1,37 @@
+<script>
+  function change_video(video_id){
+    $('#video-widget-video').first().attr('src', '//www.youtube.com/embed/' + video_id + "?rel=0&autoplay=1");
+    return false;
+  }
+</script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+  function showHide(elementid){
+    if (document.getElementById(elementid).style.display == 'none'){
+      document.getElementById(elementid).style.display = '';
+    } else {
+      document.getElementById(elementid).style.display = 'none';
+    }
+  }
+  </script>
+
+<div class="widget video clearfix">
+	<div class="special">
+		<h2><label class="label label-primary label-md">Free Preview</label>Video Samples</h2>
+	</div>
+	<iframe id="video-widget-video" style="width:90%" height="260" src="//www.youtube.com/embed/rtQ0TLhdWU4?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+	<h4 style="font-size:14pt"><a href="javascript:showHide('div_1035677');">Watch More Samples from Joanna's Programs:</a></h4>
+     <div id="div_1035677" style="display:none">
+	<ul class="feature video">
+	<!--	<li><a href="#" onclick="return change_video('qDR_HfAuPTg');">Tip#9: Feel Not Formula</a></li> -->
+		<li><a href="#" onclick="return change_video('4FvgfBhKTNA');">Tip#13: Intimacy = Truth</a></li> 
+	<!--	<li><a href="#" onclick="return change_video('eujEsnpmhhc');">Tip#27: Don't order short</a></li> -->
+		<li><a href="#" onclick="return change_video('-SQUQBArx4Y');">A Sample Exercise</a></li> 
+		<li><a href="#" onclick="return change_video('lzzsaE3rcsk');">Tip#48: How to keep him!</a></li> 
+        
+    <!--    <li><a href="#" onclick="return change_video('tuIx9Ugnb4w');">Tame his heart Tip #41</a></li> -->
+       <li><a href="#" onclick="return change_video('Pr48TjXgZgQ');">Tame his heart Tip #33</a></li> 
+        
+	</ul>
+    </div>
+</div>

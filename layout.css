@@ -1,0 +1,103 @@
+    .container                                  { position: relative; width: 900px; margin: 0 auto; padding: 0; }
+    .container .col,
+    .container .cols                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .row                                        { margin-bottom: 20px; }
+    .col.alpha, .cols.alpha               { margin-left: 0; }
+    .col.omega, .cols.omega               { margin-right: 0; }
+    .container .six.cols                     { width: 300px; }
+    .container .ten.cols                     { width: 540px; }
+	#guaranteebarsm{display:none!important;}
+	#vidcontainer{max-width:900px; margin-left:auto; margin-right:auto; text-align:center;}
+    /* Note: Design for a width of 768px */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .col,
+        .container .cols                         { margin-left: 10px; margin-right: 10px;  }
+        .col.alpha, .cols.alpha               { margin-left: 0; margin-right: 10px; }
+        .col.omega, .cols.omega               { margin-right: 0; margin-left: 10px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+        .container .six.cols                     { width: 248px; }
+        .container .ten.cols                     { width: 420px; }
+        .container .one-third.col                { width: 236px; }
+        .container .two-thirds.col               { width: 492px; }
+		#guaranteebarsm{display:none!important;}
+		#vidcontainer{max-width:900px; margin-left:auto; margin-right:auto; text-align:center;}
+
+    }
+    /* Note: Design for a width of 320px */
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .container .cols,
+        .container .col { margin: 0; }
+        .container .six.cols,
+        .container .ten.cols,
+        .container .one-third.col,
+        .container .two-thirds.col  { width: 300px; }
+		#guaranteebarsm{display:none!important;}
+		#vidcontainer{max-width:700px; margin-left:auto; margin-right:auto; text-align:center;}
+    }
+    /* Note: Design for a width of 480px */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .container .cols,
+        .container .col { margin: 0; }
+        .container .six.cols,
+        .container .ten.cols,
+        .container .one-third.col,
+        .container .two-thirds.col { width: 420px; }
+		#guaranteebarsm{display:none!important;}
+		#vidcontainer{max-width:700px; margin-left:auto; margin-right:auto; text-align:center;}
+    }
+
+    .redhighlight{font-weight:bold;color:#d90000;}
+    .tablebox{background:url('_img/tablebg2.png') no-repeat 0 bottom;margin-top:30px;}
+    .tablecontainer{padding:0px 15px 10px;}
+        .tablebox .cart-title{text-shadow:-1px -1px #222 ;line-height:40px;font-size:18px;padding:0;text-align:center;background:url('_img/tablehead.jpg') 0 0;height:42px;overflow:hidden;color:#fff;}
+        .tablebox,.tablebox table{width:100%;margin-bottom:30px;}
+        .tablebox table th{font-weight:bold;background:#333;color:#fff;}
+        .tablebox table th,.tablebox table td{padding:6px 4px 2px;vertical-align: middle;}
+        .tablebox table tr {border-bottom:solid 1px #d5d4d4;}
+    .innercontainer{padding:20px;line-height:20px;}
+    .stepbar{float:right;margin-top:60px; margin-right:10px;}
+    .stepbar .steps{margin:0;padding:0;}
+      .stepbar .steps .step{float:left;width:222px;height:29px;overflow:hidden;background:url(_img/stepbutton.png) no-repeat 0 0;color:#575757;line-height:28px;text-align:center;font-weight:bold;font-size:12px;}
+      .stepbar .steps .step.selected{background-position:0 -29px;color:#000;}
+      .stepbar .steps .step span{display:block;}
+      .stepbar .steps .step.selected span{background:url(_img/smalltick.png) no-repeat 20px 10px;padding-left:10px;}
+    .para{padding:0 10px 0 10px; background:url(../images/tick2.jpg) no-repeat 0 5px;font-size:14px; margin-top:30px; text-align:justify;}
+    .para.main{background:url(images/redtick-big.png) no-repeat 0 0;margin-top:0px;}
+    .bonus h3 {margin-bottom:0px;color:#CE0000;line-height:20px;}
+    .bonus td span {text-decoration: line-through;}
+    .bonus td { padding:25px; font-size:16px;}
+    .right{text-align:right;}
+    .alignright{text-align:right;}
+
+      #myForm tr.order_summary {
+        background: none repeat scroll 0 0 #EDEDED;
+        border-bottom: 1px solid #999;
+        border-top: 1px solid #999;
+      }
+    #myForm tr.order_summary td.order_total span {
+      display: block;
+      padding: 3px;
+    }
+	#guaranteebarsm{display:none!important;}
+
+
+    /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media (max-width: 850px)  {
+        .stepbar{float:left;margin-top:30px!important; margin-left:20px;  width:235px!important; display: block;}
+		#guaranteebarsm{display:none!important;}
+		#vidcontainer{max-width:700px; margin-left:auto; margin-right:auto; text-align:center;}
+    }
+
+
+
+    @media only screen and (max-width: 479px) {
+        .stepbar{display:none!important;}
+		#toplogo{display:none!important;}
+		#guaranteebarsm{display:block!important;}
+		#guaranteebarlg{display:none!important;}
+		#vidcontainer{max-width:400px; margin-left:auto; margin-right:auto; text-align:center;}
+		
+    }

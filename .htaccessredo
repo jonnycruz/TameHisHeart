@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCondition %{SERVER_PORT} !^443$
+RewriteRule ^(.*)$ https://www.example.com/$1 [R=301,L] 
+
+RewriteRule ^(.*).html$ /$1.php [NC,QSA,L]
+RewriteCond %{HTTPS} off
+RewriteRule ^checkout\.php$ https://www.tamehisheart.com/checkout.php [L,R=301]
+RewriteCond %{HTTPS} on
+
+
+
+
+
+
